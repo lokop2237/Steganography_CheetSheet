@@ -19,8 +19,7 @@ binwalk [파일명]
 
 # 이미지/오디오 내부에 숨겨진 파일 추출 
 steghide --extract -sf [파일명]
-# 비밀번호 필요 시 brute force 가능
-stegcracker [파일명] /usr/share/wordlists/rockyou.txt
+stegcracker [파일명] /usr/share/wordlists/rockyou.txt     # 비밀번호 필요 시 brute force 가능
 ```
 
 # 3. 이미지 크기 변경
